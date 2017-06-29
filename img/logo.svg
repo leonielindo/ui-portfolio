@@ -1,0 +1,42 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124" height="134" viewBox="0 0 124 134">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 90px;
+        font-weight: 500;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        text-anchor: middle;
+        font-family: "Helvetica Neue";
+        text-transform: uppercase;
+      }
+
+      .cls-2 {
+        font-size: 20px;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-width: 3px;
+        fill-rule: evenodd;
+      }
+    </style>
+    <image id="image" width="124" height="134" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAACGBAMAAADtOfPyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAG1BMVEUAAAD///////////////////////////8AAADr8xjQAAAAB3RSTlMA9fryxcLHVXhCVgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAABgSURBVGje7doxAYAwEATBb4IAHEATAzgAAZGABhrsEw3/DcVsPwruYt0LbdHfQk/040p3Tj4iXZv8zvMFx3Ecx3Ecx3Ecx3Ecx3Ecx3Ecx3Ecx//DR563+nxfOw/Urgsffmjpn0/uLjoAAAAASUVORK5CYII="/>
+  </defs>
+  <text id="L" class="cls-1" x="88.391" y="77.125"><tspan x="88.391">L</tspan></text>
+  <text id="L-2" data-name="L" class="cls-1" x="35.391" y="77.125"><tspan x="35.391">L</tspan></text>
+  <text id="Creative" class="cls-2" x="61.898" y="117.648"><tspan x="61.898">Creative</tspan></text>
+  <use xlink:href="#image"/>
+  <path class="cls-3" d="M0,93V90H124v3H0Z"/>
+  <text id="L-3" data-name="L" class="cls-1" x="88.391" y="77.125"><tspan x="88.391">L</tspan></text>
+  <text id="L-4" data-name="L" class="cls-1" x="35.391" y="77.125"><tspan x="35.391">L</tspan></text>
+  <text id="Creative-2" data-name="Creative" class="cls-2" x="61.898" y="117.648"><tspan x="61.898">Creative</tspan></text>
+  <use xlink:href="#image"/>
+  <path class="cls-3" d="M0,93V90H124v3H0Z"/>
+</svg>
