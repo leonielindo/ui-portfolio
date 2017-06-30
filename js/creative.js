@@ -68,4 +68,29 @@
         }
     });
 
+    function getInstagram () {
+      //API Call to instagram
+      var token = '5557908181.574d428.b8965605708a46c7ad75fb59cb15abaa',
+      hashtag='art',
+      num_photos = 20;
+
+      $.ajax({
+      	url: 'https://api.instagram.com/v1/tags/' + hashtag + '/media/recent',
+      	dataType: 'jsonp',
+      	type: 'GET',
+      	data: {access_token: token, count: num_photos},
+      	success: function(data){
+       		console.log(data);
+      		for( x in data.data ){
+      			$('ul').append('<li><img src="'+data.data[x].images.low_resolution.url+'"></li>');
+      		}
+      	},
+      	error: function(data){
+      		console.log(data);
+      	}
+      });
+    }
+
+    getInstagram();
+
 })(jQuery); // End of use strict
