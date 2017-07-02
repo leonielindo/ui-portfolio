@@ -81,8 +81,9 @@
       	data: {access_token: token, count: num_photos},
       	success: function(data){
        		console.log(data);
+          var x;
       		for( x in data.data ){
-      			$('ul').append('<li><img src="'+data.data[x].images.low_resolution.url+'"></li>');
+      			$('ul#rudr_instafeed').append('<li><img src="'+data.data[x].images.low_resolution.url+'"></li>');
       		}
       	},
       	error: function(data){
